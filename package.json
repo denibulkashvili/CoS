@@ -1,7 +1,6 @@
 {
   "name": "CoS",
   "version": "1.0.0",
-  "main": "app.js",
   "repository": "https://github.com/denibulkashvili/CoS.git",
   "author": "denibulkashvili",
   "license": "MIT",
@@ -10,10 +9,10 @@
     "typescript": "^3.9.5"
   },
   "scripts": {
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "server": "node server/server.js"
   },
   "devDependencies": {
-"@types/express": "^4.17.6",
+    "@types/express": "^4.17.6"
   }
-
 }
